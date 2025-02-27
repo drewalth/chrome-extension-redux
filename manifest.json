@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Redux Extension",
+  "name": "Ditto Info Extension",
   "version": "1.0",
-  "description": "Extension with Redux Store",
+  "description": "Extension with Ditto Info",
   "permissions": ["storage"],
   "background": {
     "service_worker": "src/background.ts",

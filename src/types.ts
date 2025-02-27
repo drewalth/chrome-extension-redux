@@ -7,8 +7,8 @@ export type Ditto = {
   };
 };
 
-export type State = {
+export type StorageData = {
   data: Ditto | null;
-  isLoading: boolean;
-  error: string | null;
+  timestamp: number;
 };
+
